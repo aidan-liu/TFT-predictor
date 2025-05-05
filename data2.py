@@ -18,11 +18,11 @@ from datetime import datetime, timezone
 import pandas as pd
 
 # ─────────────── USER CONFIG ────────────────────────────────────────
-API_KEY        = "RGAPI-365f2992-076e-4b01-8401-e03538d37264"   # <- replace
-PUUID          = "eoX5A-HBxD7kSNOZhrNPJ2bGJs3xN2a-HrqV3KMrFG3W22PAYqjBAiRkDvC3xwCFBGHtfFOXpg-3Rw"                            # <- replace
+API_KEY        = "RGAPI-0fd506dc-663d-4e79-8009-047d2666c362"   # <- replace
+PUUID          = "2rYWIsTjfjel7Dm8eIbY1_TVVOmHpIdUjl0RzRsh52w5G67q5NoHWaaG11myunl-CyCpLZhW6spioQ"                            # <- replace
 CLUSTER        = "americas"                                     # americas|europe|asia|sea
 SKIP_FIRST     = 0                                            # newest games to skip
-MATCHES_NEEDED = 1_000                                          # games to download
+MATCHES_NEEDED = 500                                          # games to download
 # ────────────────────────────────────────────────────────────────────
 
 HEADERS = {"X-Riot-Token": API_KEY}
